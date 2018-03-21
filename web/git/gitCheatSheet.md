@@ -54,10 +54,10 @@ $ git commit -m 'message here'
 ```
 - 修改上次提交
 
-  *请勿修改已发布的提交记录!*
-  ```sh
-  $ git commit --amend
-  ```
+*请勿修改已发布的提交记录!*
+```sh
+$ git commit --amend
+```
 ---
 ### 提交历史
 
@@ -158,10 +158,10 @@ $ git merge <branch>
 ```
 - 将当前HEAD版本重置到分支中:
 
-  *请勿重置已发布的提交!*
-  ```sh
-  $ git rebase <branch>
-  ```
+*请勿重置已发布的提交!*
+```sh
+$ git rebase <branch>
+```
 - 退出重置:
 ```sh
 $ git rebase --abort
