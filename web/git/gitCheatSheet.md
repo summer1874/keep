@@ -215,7 +215,7 @@ $ git reset --keep <commit>
 ![工作区，版本库(暂存区-stage，分支-master)](https://i.loli.net/2018/03/22/5ab290177394c.png)
 ### 创建与合并分支
 [![创建与合并分支](https://i.loli.net/2018/03/22/5ab2920304401.png)](https://i.loli.net/2018/03/22/5ab2920304401.png)
-[![JIY$N_B00Y)]SS{G_HQ%QQ5.png](https://i.loli.net/2018/03/22/5ab29203e613a.png)](https://i.loli.net/2018/03/22/5ab29203e613a.png)
+[![创建与合并分支2](https://i.loli.net/2018/03/22/5ab29203e613a.png)](https://i.loli.net/2018/03/22/5ab29203e613a.png)
 ###  分支
 [![branches](https://i.loli.net/2018/03/22/5ab292e70a55b.png)](https://i.loli.net/2018/03/22/5ab292e70a55b.png)
 ### git folw
