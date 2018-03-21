@@ -119,7 +119,7 @@ $ git remote -v
 ```sh
 $ git remote show <remote>
 ```
-添加新的远程端：
+添加新的远程端： 
 ```sh
 $ git remote add <remote> <url>
 ```
