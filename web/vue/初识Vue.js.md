@@ -8,7 +8,7 @@
     - 可复用的组件
     - 前端路由
     - 状态管理
-    - 虚拟DOM(virtual DOM)
+    - 虚拟DOM(virtual DOM)
 #### MVVM模型
 ![1515941474515.jpg](http://upload-images.jianshu.io/upload_images/5600906-f85ee6c66cc43b0e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 ```
@@ -59,7 +59,7 @@ vue
 
 
 - 优点：简单，高效，实用。
-- 缺陷：难以应付复杂的也业务场景（spa-单页面富应用），组件解耦，开发效率低，维护成本高。
+- 缺陷：难以应付复杂的也业务场景（spa-单页面富应用），组件解耦，开发效率低，维护成本高。
 #### Vue.js开发模式
 。。。
 

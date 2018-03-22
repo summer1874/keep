@@ -12,9 +12,9 @@ data:{
 ...
 <script>
 ```
->使用`v-model`后，表单控件显示值只依赖所绑定的数据，不在关系初始化的value值，即`value="..."`和`<textarea>...</textare>`时不会生效的。
+>使用`v-model`后，表单控件显示值只依赖所绑定的数据，不在关系初始化的value值，即`value="..."`和`<textarea>...</textare>`时不会生效的。
 
->使用中文输入法时`v-model`在没有定词选择之前，时不会触发更新的。有这个需求可以是用`@input`来替代`v-model`。
+>使用中文输入法时`v-model`在没有定词选择之前，时不会触发更新的。有这个需求可以是用`@input`来替代`v-model`。
 ```html
 <textarea @input="handleInput"></textarea>
 <p>{{message}}</p>
@@ -29,18 +29,18 @@ methoes:{
 ```
 **单选按钮**
 
-- 单选按钮单独使用时，直接使用`v-bind`来绑定一个布尔值即可，`v-model`也可。
+- 单选按钮单独使用时，直接使用`v-bind`来绑定一个布尔值即可，`v-model`也可。
 
-- 组合使用实现互斥选择效果，就需要`v-model`配合`value`来使用。
+- 组合使用实现互斥选择效果，就需要`v-model`配合`value`来使用。
 
 ```html
 <!-- 单独使用 -->
-<input type="radio" :checked="picked" ></input>
+<input type="radio" :checked="picked" ></input>
 
 <!-- 组合使用实现互斥选择效果 -->
-<input type="radio" v-model="pickeds" value="html"></input>
-<input type="radio" v-model="pickeds" value="css"></input>
-<input type="radio" v-model="pickeds" value="js"></input>
+<input type="radio" v-model="pickeds" value="html"></input>
+<input type="radio" v-model="pickeds" value="css"></input>
+<input type="radio" v-model="pickeds" value="js"></input>
 
 <script>
 ...
@@ -51,20 +51,20 @@ data: {
 ...
 </script>
 ```
-*数据中的`pickeds`的值与`value`值一致时，就会选中该项。选择其他时,`data`里的`pickeds`也会动态改变。*
+*数据中的`pickeds`的值与`value`值一致时，就会选中该项。选择其他时,`data`里的`pickeds`也会动态改变。*
 
 **复选框**
 - 单独使用时用直接用`v-model`绑定一个布尔值。
-- 组合使用绑定到一个数组类型的数据，这一过程也是双向的，在勾选时`value`会自动`push`到这个数组，反之亦然。
+- 组合使用绑定到一个数组类型的数据，这一过程也是双向的，在勾选时`value`会自动`push`到这个数组，反之亦然。
 
 ```html
 <!-- 单独使用 -->
-<input type="checkbox" v-model="picked" ></input>
+<input type="checkbox" v-model="picked" ></input>
 
 <!-- 组合使用实现多选效果 -->
-<input type="checkbox" v-model="pickeds" value="html"></input>
-<input type="checkbox" v-model="pickeds" value="css"></input>
-<input type="checkbox" v-model="pickeds" value="js"></input>
+<input type="checkbox" v-model="pickeds" value="html"></input>
+<input type="checkbox" v-model="pickeds" value="css"></input>
+<input type="checkbox" v-model="pickeds" value="js"></input>
 
 <script>
 ...
@@ -75,12 +75,12 @@ data: {
 ...
 </script>
 ```
-**选择列表**
-- `<option>`是备选项，如果含有`value`，`v-model`会优先匹配`value`的值；如果没有,就会直接匹配`<option>`的`text`。
+**选择列表**
+- `<option>`是备选项，如果含有`value`，`v-model`会优先匹配`value`的值；如果没有,就会直接匹配`<option>`的`text`。
 
-- `<selected>`添加`multipe`可以实现多选，此时的`v-model`绑定的是一个数组，与复选框方法类似(会自动生成数组)。
+- `<selected>`添加`multipe`可以实现多选，此时的`v-model`绑定的是一个数组，与复选框方法类似(会自动生成数组)。
 
-- 实际业务`<option>`一般通过`v-for`动态输出,`value`,`text`通过`v-bind`动态输出。
+- 实际业务`<option>`一般通过`v-for`动态输出,`value`,`text`通过`v-bind`动态输出。
 ```html
 <select v-model="selected" multiple>
     <option value="js">js</option>
@@ -96,17 +96,17 @@ data: {
 ...
 </script>
 ```
-*`<select>`在不同的浏览器显示有差异，且不美观，建议用组件代替。*
+*`<select>`在不同的浏览器显示有差异，且不美观，建议用组件代替。*
 
-### 绑定值
-`v-model`和`v-bind`在实际业务中的应用。
+### 绑定值
+`v-model`和`v-bind`在实际业务中的应用。
 -   单选按钮
 
     ```html
-    <input type="radio" :v-model="picked" :value="value"></input>
+    <input type="radio" :v-model="picked" :value="value"></input>
 
     <script>
-    //选中时，app.picked === app.value,值都是1;
+    //选中时，app.picked === app.value,值都是1;
     ...
     data: {
         value:1,
@@ -119,11 +119,11 @@ data: {
 -   复选按钮
     ```html
 
-    <input type="checkbox" v-model="taggle" :true-value="value1" :false-value="value2"></input>
+    <input type="checkbox" v-model="taggle" :true-value="value1" :false-value="value2"></input>
    
 
     <script>
-    //勾选时,app.taggle === app.value1;未勾选时,app.taggle === app.value2;
+    //勾选时,app.taggle === app.value1;未勾选时,app.taggle === app.value2;
     ...
     data: {
         taggle:false,
@@ -157,4 +157,4 @@ data: {
 -   .trim
     - 自动过滤首尾空格。`v-model.trim=""`
 
-**`vue2.0x`后,`v-model`可以用于自定义组件。满足定制化需求**
+**`vue2.0x`后,`v-model`可以用于自定义组件。满足定制化需求**
