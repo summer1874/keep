@@ -4,16 +4,16 @@
 - [**git cheat sheet**](https://github.com/summer1874/keep/blob/master/web/git/gitCheatSheet.md)
 - [**git 思维导图**](https://github.com/summer1874/keep/blob/master/web/git/git%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.xmind)
 #### ES6
-- [**块级作用域绑定**](https://github.com/summer1874/keep/blob/dev/web/ES6/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%BB%91%E5%AE%9A.md)
-- [**函数**](https://github.com/summer1874/keep/blob/dev/web/ES6/%E5%87%BD%E6%95%B0.md)
-- [**扩展对象的功能性**](https://github.com/summer1874/keep/blob/dev/web/ES6/%E6%89%A9%E5%B1%95%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%80%A7.md)
+- [**块级作用域绑定**](https://github.com/summer1874/keep/blob/master/web/ES6/%E5%9D%97%E7%BA%A7%E4%BD%9C%E7%94%A8%E5%9F%9F%E7%BB%91%E5%AE%9A.md)
+- [**函数**](https://github.com/summer1874/keep/blob/master/web/ES6/%E5%87%BD%E6%95%B0.md)
+- [**扩展对象的功能性**](https://github.com/summer1874/keep/blob/master/web/ES6/%E6%89%A9%E5%B1%95%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8A%9F%E8%83%BD%E6%80%A7.md)
 
-- [**解构赋值**](https://github.com/summer1874/keep/blob/dev/web/ES6/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.md)
-- [**Symbol**](https://github.com/summer1874/keep/blob/dev/web/ES6/Symbol.md)
-- [**Set集合与Map集合**](https://github.com/summer1874/keep/blob/dev/web/ES6/Set%E9%9B%86%E5%90%88%E4%B8%8EMap%E9%9B%86%E5%90%88.md)
-- [**Proxy和Reflect**](https://github.com/summer1874/keep/blob/dev/web/ES6/Proxy%E5%92%8CReflect.md)
-- [**类与对象**](https://github.com/summer1874/keep/blob/dev/web/ES6/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1.md)
-- [**ES6思维导图.xmind**](https://github.com/summer1874/keep/blob/dev/web/ES6/ES6%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.xmind)
+- [**解构赋值**](https://github.com/summer1874/keep/blob/master/web/ES6/%E8%A7%A3%E6%9E%84%E8%B5%8B%E5%80%BC.md)
+- [**Symbol**](https://github.com/summer1874/keep/blob/master/web/ES6/Symbol.md)
+- [**Set集合与Map集合**](https://github.com/summer1874/keep/blob/master/web/ES6/Set%E9%9B%86%E5%90%88%E4%B8%8EMap%E9%9B%86%E5%90%88.md)
+- [**Proxy和Reflect**](https://github.com/summer1874/keep/blob/master/web/ES6/Proxy%E5%92%8CReflect.md)
+- [**类与对象**](https://github.com/summer1874/keep/blob/master/web/ES6/%E7%B1%BB%E4%B8%8E%E5%AF%B9%E8%B1%A1.md)
+- [**ES6思维导图.xmind**](https://github.com/summer1874/keep/blob/master/web/ES6/ES6%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.xmind)
 
 
 #### VUE
